@@ -11,5 +11,6 @@ Bonjuor! what's up bro? i'm good
 
 int main(void){
   printf("Hello World!\n");
+  puts("poo poo");
   return 0;
 }
