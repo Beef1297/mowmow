@@ -1,15 +1,13 @@
-I am a dinosaur! Be scared! I will absolutely be triceratops! Hello! synchronize thesaurus toxic
-and I like T-rex and Ptera!
-but I can not keep pteranodon away!!
-these days, I'm boring our diet.
-so I wanna eat french and italian!.Good evening!
-Bonjuor! what's up bro? i'm good
-
-#include<io.h>
 #include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+char buf[128];
 
 
 int main(void){
+  char str[128];
+  fgets(buf, sizeof(buf), stdin);
+  strcpy(str, buf);
   printf("Hello World!\n");
   puts("poo poo");
   return 0;
