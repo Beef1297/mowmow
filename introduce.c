@@ -6,7 +6,8 @@ char buf[128];
 
 int main(void){
   char str[128];
-  fgets(buf, sizeof(buf), stdin);
+  printf("文字列を入力してくだされ: ");
+  scanf("%s",buf);
   strcpy(str, buf);
   printf("Hello World!\n");
   puts("poo poo");
